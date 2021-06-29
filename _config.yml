@@ -1,0 +1,63 @@
+title: Jekyll Minima Bootstrap5 Boilerplate
+
+author:
+  name: NuwanJ
+  email: nuwanjaliyagoda@gmail.com
+
+description: > # this means to ignore newlines until "show_excerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
+
+# Google Analytics Tracking (optional)
+ga_tracking:
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+permalink: pretty
+exclude:
+  [
+    "node_modules/",
+    "*.gemspec",
+    "*.gem",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "package-lock.json",
+    "script/",
+    "LICENSE.txt",
+    "lib/",
+    "bin/",
+    "README.md",
+    "Rakefile",
+    "graphic_templates",
+    "*.py",
+    "*.sh",
+    "*.yml"
+  ]
+
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+    line_numbers: false
+
+# Guideline:https://www.digitalocean.com/community/tutorials/jekyll-compress-html0
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  startings: []
+  blanklines: true
+  profile: false
+  # ignore:
+  #   envs: all
