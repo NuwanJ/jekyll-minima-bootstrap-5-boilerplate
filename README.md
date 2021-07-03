@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 # Jekyll-Minima with Bootstrap5 Boilerplate Template
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
