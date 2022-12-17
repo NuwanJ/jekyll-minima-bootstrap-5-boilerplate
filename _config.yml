@@ -1,4 +1,5 @@
 title: Jekyll Minima Bootstrap5 Boilerplate
+baseurl: ''
 
 author:
   name: NuwanJ
